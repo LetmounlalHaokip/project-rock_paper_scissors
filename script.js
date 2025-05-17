@@ -41,9 +41,11 @@ function playGame() {
     };
 
     // Play 5 rounds
-    for (let i = 1; i <= 5; i++) {
-        playSingleRound(i);
-    }
+   playSingleRound(1);
+   playSingleRound(2);
+   playSingleRound(3);
+   playSingleRound(4);
+   playSingleRound(5);
 
     // Final Result
     console.log(`Final Score -> You: ${humanScore}, Computer: ${computerScore}`);
